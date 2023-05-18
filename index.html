@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">Photography</h1>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="video-container">
+<video autoplay loop muted playsinline>
+  <source src="BTS.mov" type="video/mp4">
+</video>
+
+    </div>
+    <div class="overlay">
+      <div class="container">
+        <h2>Welcome</h2>
+        <a href="#portfolio" class="btn">View Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <div class="section">
+          <h3>Graduation</h3>
+          <img src="grad1.JPG" alt="Photo 3">
+          <img src="dez2.JPG" alt="Photo 2">
+          <img src="c26.JPG" alt="Photo 4">
+        </div>
+        <div class="section">
+          <h3>Creative Ideas</h3>
+          <img src="d10.JPG" alt="Photo 1">
+          <img src="p4 copy 2.JPG" alt="Photo 4">
+          <img src="a50.JPG" alt="Photo 4">
+        </div>
+        <div class="section">
+          <h3>Birthday</h3>
+          <img src="bday 17-recovered copy.JPG" alt="Photo 4">
+          <img src="s1-edit.JPG" alt="Photo 4">
+          <img src="IMG_1570.jpg" alt="Photo 4">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Ayomide Aderohunmu</h3>
+          <p>I'm a passionate photographer with a love for capturing beautiful moments. Photography is not just a hobby for me; it's a way of life. I believe that every photograph has a story to tell, and I strive to tell those stories through my lens.</p>
+          <p>With years of experience in various genres of photography, including portrait, landscape, and event photography, I have developed a keen eye for detail and composition. My goal is to create stunning and meaningful images that evoke emotions and leave a lasting impression.</p>
+        </div>
+        <div class="about-image">
+          <img src="AFE227FA-455E-4C71-8CF8-3D4A42291CC8.JPG" alt="About Me">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact and Booking</h2>
+      <form action="https://formspree.io/f/xoqzbzlb" method="POST" id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="date" name="date" placeholder="Booking Date" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Booking Request</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Photography. All rights reserved.</p>
+      <div class="social-media">
+        <a href="https://www.instagram.com/your_username" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/your_username" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com/your_username" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
